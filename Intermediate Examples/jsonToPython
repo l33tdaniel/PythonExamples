@@ -1,0 +1,25 @@
+import json
+
+# a Python object (dict):
+x = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+
+# convert into JSON:
+y = json.dumps(x)
+
+# the result is a JSON string:
+print(y)
+
+'''
+Thanks to /Lukasa for that answer
+JSON is a serialization format. 
+That is, JSON is a way of representing structured data in the form of a textual string.
+
+A dictionary is a data structure. 
+That is, it is a way of storing data in memory that provides certain abilities to your code: 
+in the case of dictionaries, those abilities include rapid lookup and enumeration.
+
+'''
